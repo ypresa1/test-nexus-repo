@@ -45,7 +45,6 @@ Now that we know the node the router is running on, we need to get a list of all
 The hostname and path from our URL need to match one of the returned routes listed. If it does not then you need to add a route. If the route is present then you need to debug access to your endpoints, the next section will provide more details on how to debug services. 
 
 ### Debugging a Service
-		Need to do an intro??
 First we need to see our services: 
 		
 `$ oc get services --all-namespaces`
