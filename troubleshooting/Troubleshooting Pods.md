@@ -15,7 +15,7 @@ If you do not have any pending deployments, create a new one:
 
 `$ oc deploy <config-name> --latest`
 
-**Note: There could be many issues to a Pod stuck in Pending. This indicates that the Pod has not been scheduled yet and could be for a number of reasons including not having enough resources. It is very important to check the details and status of your pod.**
+**NOTE: There could be many issues to a Pod stuck in Pending. This indicates that the Pod has not been scheduled yet and could be for a number of reasons including not having enough resources. It is very important to check the details and status of your pod.**
 
 ## CrashLoopBackOff
 The Pod has been started and deployed but keeps getting terminated and stuck on a never ending loop. 
@@ -53,6 +53,7 @@ Create a service account named sysdig-agent:
 `$ oc create serviceaccount sysdig-agent`
 
 Finally, link the newly created secret to the sysdig-agent service account:
+
 `$ oc secrets link sysdig-agent rhcc --for=pull`
 
 
