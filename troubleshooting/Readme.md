@@ -3,4 +3,4 @@ You know there is an issue going on with your OpenShift environment but do not k
 
 ### [The Essentials]( https://github.com/ypresa1/test-nexus-repo/blob/master/troubleshooting/The%20Essentials.md)
 ### [Troubleshooting Nodes](https://github.com/ypresa1/test-nexus-repo/blob/master/troubleshooting/Troubleshooting%20Nodes.md)
-### Troubleshooting Pods
+### [Troubleshooting Pods](https://github.com/ypresa1/test-nexus-repo/blob/master/troubleshooting/Troubleshooting%20Pods.md)
