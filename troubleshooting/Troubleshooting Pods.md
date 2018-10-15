@@ -49,13 +49,13 @@ Create the image pull secret by referencing the docker config.json file that was
 --from-file=.dockerconfigjson=/root/.docker/config.json \
 --type=kubernetes.io/dockerconfigjson`
 
-Create a service account named sysdig-agent:
+Create a service account name for the project:
 
-`$ oc create serviceaccount sysdig-agent`
+`$ oc create serviceaccount <service account name>`
 
-Finally, link the newly created secret to the account service account:
+Finally, link the newly created secret to the service account name:
 
-`$ oc secrets link sysdig-agent rhcc --for=pull`
+`$ oc secrets link  rhcc --for=pull <service account name>`
 
 
 
