@@ -5,6 +5,7 @@ Some of the errors you might receive with pods are:
 Some pods get stuck in Pending, but to verify check the messages found on the status. To see the status and logs of your pod: 
 
 `$ oc describe pod <pod-name>`
+
 `$ oc logs <pod-name>`
 
 You can cancel an in-progress deployment: 
@@ -52,7 +53,7 @@ Create a service account named sysdig-agent:
 
 `$ oc create serviceaccount sysdig-agent`
 
-Finally, link the newly created secret to the sysdig-agent service account:
+Finally, link the newly created secret to the account service account:
 
 `$ oc secrets link sysdig-agent rhcc --for=pull`
 
